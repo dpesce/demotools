@@ -15,13 +15,13 @@ np.random.seed(12345)
 # source counts survey settings
 
 # flux density grid, in Jy
-F0_arr = 10.0**np.linspace(-1.0,0.0,10)
+F0_arr = 10.0**np.linspace(-3.0,1.0,40)
 
 # ring diameter grid, in microarcseconds
 ring_diam_arr = 10.0**np.linspace(-1.0,2.0,30)
 
 # number of weather instantiations to use per grid point
-Nweather = 10
+Nweather = 20
 
 ##################################################
 # array and observation settings
